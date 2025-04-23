@@ -18,10 +18,13 @@ General tools:
   * React: ES7 React/Redux/GraphQL/React-Native snippets (extension for React, Redux, and GraphQL in JS/TS with ES7 syntax)
   * JavaScript (ES6): Code snippets for JavaScript in ES6 syntax
 * Install pip or pip3 or something equivalent as appropriate, if not already installed
+
 * Command to install django and django rest framework:
 
     `pip3 install django djangorestframework`
 
+Creating project and app:
+-------------------------
 * Command to create django project:
 
     `django-admin startproject global_dashboard_os`
