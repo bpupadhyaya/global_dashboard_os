@@ -11,6 +11,6 @@ def main(request):
 ```
 
 * Create `urls.py` file and link above main method to a url, it can be empty as well. If it is empty then it will be base url of the app.
-* Next, link /global_dashboard_os_api/urls.py to /global_dashboard_os/urls.py
+* Next, link `/global_dashboard_os_api/urls.py` to `/global_dashboard_os/urls.py`
 
 
