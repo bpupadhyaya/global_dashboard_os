@@ -36,4 +36,27 @@ Note: it creates folder with global_dashboard_os, which is a project folder. Ins
 Note: observe the contents inside app folder; these are different from project subfolder's contents
 
 
+Running a project:
+------------------
+
+* After making changes, run below commands:
+  * `python3 ./manage.py makemigrations`; whenever we make changes to DB or models we need to run this. Might need to run this when running the project for the first time just to initialize the DB. Django stores admin related data in a built-in DB. 
+  *  `python3 ./manage.py migrate`; if running app for the first time, this will initialize admin data. Note: After running this command, we should be able to see `db.sqlite3` or its equivalent in the project folder.
+  
+
+Running server:
+---------------
+* Run the command:
+  * `python3 ./manage.py runserver`. Note: If the setup is correct, we should be able to see something like:
+  ```text
+    Django version 5.2, using settings 'global_dashboard_os.settings'
+    Starting development server at http://127.0.0.1:8000/ 
+    Quit the server with CONTROL-C.
+  ```
+* If we click on the url, it should take us to browser and render the content returned by HttpResponse in the current setup.
+
+
+Server auto-refresh:
+--------------------
+* Django automatically reflects the changes made in source code. To test this, if we make some changes to the main function and save it, we should see server re-running.  
 

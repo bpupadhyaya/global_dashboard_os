@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'global_dashboard_os_api.apps.GlobalDashboardOsApiConfig',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
