@@ -14,3 +14,12 @@ def main(request):
 * Next, link `/global_dashboard_os_api/urls.py` to `/global_dashboard_os/urls.py`
 
 
+Refreshing and reloading models to local server:
+------------------------------------------------
+In Unix like OS, from a terminal window, run below commands. 
+* `python3 ./manage.py makemigrations`
+* `python3 ./manage.py migrate`
+  
+In MS Windows like OS, from MS DOS prompt window, run below commands.
+* `python3 .\manage.py makemigrations`
+* `python3 .\manage.py migrate`

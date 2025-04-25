@@ -60,3 +60,7 @@ Server auto-refresh:
 --------------------
 * Django automatically reflects the changes made in source code. To test this, if we make some changes to the main function and save it, we should see server re-running.  
 
+
+Installing and using Django debug tool bar:
+------------------------------------------
+* https://django-debug-toolbar.readthedocs.io/en/latest/
