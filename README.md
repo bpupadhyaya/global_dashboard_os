@@ -64,3 +64,11 @@ Server auto-refresh:
 Installing and using Django debug tool bar:
 ------------------------------------------
 * https://django-debug-toolbar.readthedocs.io/en/latest/
+
+
+Frontend/UI app setup:
+----------------------
+
+* Check if npm is installed, if not install it. Also install node.js if not already installed. Instructions can be found online. 
+* Create new app within the project
+  * `django-admin startapp global_dashboard_os_frontend`
