@@ -70,5 +70,6 @@ Frontend/UI app setup:
 ----------------------
 
 * Check if npm is installed, if not install it. Also install node.js if not already installed. Instructions can be found online. 
-* Create new app within the project
+* Create new app within the project, run below command from project's base folder.
   * `django-admin startapp global_dashboard_os_frontend`
+
